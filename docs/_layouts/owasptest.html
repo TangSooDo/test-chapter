@@ -1,5 +1,12 @@
-{% include header.html %}
-<body>
-  {{ content }}
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+</head>
+<body class="Site">
+  {% include header.html %}
+    <main class="Site-content">
+    {{ content }}
+    </main>
+  {% include footer.html %}
 </body>
-{% include footer.html %}
